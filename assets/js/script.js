@@ -67,7 +67,7 @@ $(document).ready(function() {
           newImg.addClass("gif");
           gifContain.append(ratingSpan);
           gifContain.prepend(newImg);
-                
+
           $("#displayPanel").append(gifContain);
         }
 
