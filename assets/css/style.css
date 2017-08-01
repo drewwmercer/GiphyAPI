@@ -3,6 +3,13 @@ body {
   font-size: 2em;
 }
 
+#logo {
+  border: 5px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .gifContainer {
   display: inline-block;
   margin: 10px;
@@ -20,4 +27,10 @@ body {
 
 .btn-warning {
   margin: 2px;
+}
+
+p {
+    margin-top: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 36px;
 }
