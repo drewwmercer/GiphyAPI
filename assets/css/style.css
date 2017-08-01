@@ -17,3 +17,7 @@ body {
   text-align: center;
   margin-bottom: 2px;
 }
+
+.btn-warning {
+  margin: 2px;
+}
