@@ -65,9 +65,9 @@ $(document).ready(function() {
           newImg.attr("data-still", stillLink);
           newImg.attr("data-state", "still");
           newImg.addClass("gif");
-          gifContain.prepend(ratingSpan);
-          gifContain.append(newImg);
-
+          gifContain.append(ratingSpan);
+          gifContain.prepend(newImg);
+                
           $("#displayPanel").append(gifContain);
         }
 
