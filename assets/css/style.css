@@ -1,7 +1,19 @@
 body {
   background: url("../images/topography.png");
+  font-size: 2em;
 }
 
-#header {
-  font-size: 100px;
+.gifContainer {
+  display: inline-block;
+  margin: 10px;
+}
+
+.gif {
+  border: 3px solid rgba(255, 0, 0, .5);
+  border-radius: 10px;
+}
+
+.gifRating {
+  text-align: center;
+  margin-bottom: 2px;
 }

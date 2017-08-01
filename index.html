@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giphy API Homework | Drew Mercer</title>
-    <!-- Optional Bootstrap theme with latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -16,15 +17,15 @@
 
     <section>
         <div class="container">
-            <div class="col-lg-10 col-lg-offset-1 text-center" id="header">
-                <span>Giphy API - Clever Header Title</span>
+            <div class="col-md-10 col-md-offset-1 text-center" id="header">
+                <span><img src="assets/images/PoweredBy_640_Horizontal_Light-Backgrounds_With_Logo.gif" alt="Powered by Giphy"></span>
             </div>
         </div>
     </section>
     <section id="searchSection">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center" id="searchButtonsContainer">
+                <div class="col-md-10 col-md-offset-1 text-center" id="searchButtonsContainer">
                 </div>
             </div>
         </div>
@@ -32,12 +33,12 @@
     <section id="userInput">
         <div class="container">
             <row>
-                <p class="col-lg-8 col-lg-offset-2">Enter Gif topic to add new search term:</p>
+                <p class="col-md-8 col-md-offset-2">Add your own topic to the list!</p>
             </row>
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-md-8 col-md-offset-2">
                 <form class="form-inline">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="put something cool here" id="submitBox">
+                        <input type="text" class="form-control" placeholder="add your own..." id="submitBox">
                         <button type="submit" class="btn btn-info" id="submitTerm">Submit</button>
                     </div>
                 </form>
@@ -47,7 +48,7 @@
 
     <section id="displaySection">
         <div class='container'>
-            <div class="col-lg-12" id='displayPanel'>
+            <div class="col-md-12" id='displayPanel'>
 
             </div>
         </div>
