@@ -5,10 +5,10 @@ $(document).ready(function() {
       "mac",
       "startup",
       "laptop",
-      "classroom",
+      "freelance",
       "rubber duck",
-      "homework",
-      "twitter",
+      "project manager",
+      "travel",
       "silicon valley",
       "unicorn"
     ],
