@@ -1,5 +1,5 @@
 body {
-  background: url("../images/topography.png");
+  background: url('../images/topography.png');
   font-size: 2em;
 }
 
@@ -8,6 +8,7 @@ p {
   font-family: 'Bangers', cursive;
   font-size: 36px;
   color: rgb(91, 192, 222);
+  text-align: center;
 }
 
 #logo {
@@ -15,6 +16,7 @@ p {
   border-radius: 8px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .gifContainer {
@@ -37,4 +39,19 @@ p {
 
 .btn-warning {
   margin: 2px;
+}
+
+#userInput {
+  display: block;
+  width: 50%;
+}
+
+#instruction {
+  display: block;
+  width: 85%;
+}
+
+#formEntry {
+  display: block;
+  width: 50%;
 }
